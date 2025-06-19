@@ -23,7 +23,7 @@ class HomePage extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const SelectSourcePage(),
+                    builder: (context) => const WideDetectionOptionPage(),
                   ),
                 );
               },
